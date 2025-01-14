@@ -2,6 +2,10 @@ import INCHIcon from "../assets/tokens/1INCH.svg";
 import AAVEIcon from "../assets/tokens/AAVE.svg";
 import BTCIcon from "../assets/tokens/BTC.svg";
 import ETHIcon from "../assets/tokens/ETH.svg";
+import ACTIcon from "../assets/tokens/ACT.svg";
+import NEARIcon from "../assets/tokens/NEAR.svg";
+import UsdIcon from "../assets/tokens/USD.svg";
+import ZENIcon from "../assets/tokens/ZEN.svg";
 
 export type CoinDataType = {
   code: string;
@@ -40,6 +44,36 @@ const coinData: CoinDataType[] = [
     id: "ethereum",
     name: "ETH",
     icon: ETHIcon,
+  },
+  {
+    code: "ACT",
+    id: "act",
+    name: "ACT",
+    icon: ACTIcon,
+  },
+  {
+    code: "NEAR",
+    id: "near",
+    name: "Near",
+    icon: NEARIcon,
+  },
+  {
+    code: "NEAR",
+    id: "near",
+    name: "Near",
+    icon: NEARIcon,
+  },
+  {
+    code: "USD",
+    id: "usd",
+    name: "Usd",
+    icon: UsdIcon,
+  },
+  {
+    code: "ZEN",
+    id: "zen",
+    name: "Zen",
+    icon: ZENIcon,
   },
 ];
 
