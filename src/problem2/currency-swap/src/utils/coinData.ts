@@ -58,12 +58,6 @@ const coinData: CoinDataType[] = [
     icon: NEARIcon,
   },
   {
-    code: "NEAR",
-    id: "near",
-    name: "Near",
-    icon: NEARIcon,
-  },
-  {
     code: "USD",
     id: "usd",
     name: "Usd",
